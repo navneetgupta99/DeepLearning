@@ -1,0 +1,22 @@
+# GRADED FUNCTION: basic_sigmoid
+
+mport math
+
+def basic_sigmoid(x):
+    """
+    Compute sigmoid of x.
+
+    Arguments:
+    x -- A scalar
+    x=[1,2,3]
+
+    Return:
+    s -- sigmoid(x)
+    """
+    
+    ### START CODE HERE ### (≈ 1 line of code)
+    s = None
+    s=1/(1+math.exp(-x))
+    ### END CODE HERE ###
+    
+    return s
